@@ -1,0 +1,56 @@
+
+.navigationBar{
+    /* background-color: pink; */
+    height: 80px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    margin-bottom: 85px;
+   
+}
+
+.navigationBar button{
+    width: 153.92px;
+    height: 48px;
+    background-color: #0C513F;
+    padding: 11px 24px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+
+}
+
+.centerPanel{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    height: 56px;
+    width: 440.95px;
+    padding: 10px 39px;
+    
+}
+.navigationBar p{
+   font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.rightPanel{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.navigationBar i{
+    color: #02C27F;
+    
+}
