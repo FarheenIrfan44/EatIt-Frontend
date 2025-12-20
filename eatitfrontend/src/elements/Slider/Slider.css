@@ -2,13 +2,12 @@
     background-color: #FFF3CC ;
     display: flex;
     justify-content: space-between;
-    /* gap: 68px; */
     align-items: center;
     height: 48px;
-    width: 352px;
-    padding: 2px 20px 2px 4px;
+    width: 350px;
+    padding: 2px 18px 2px 4px;
     border-radius: 30px;
-    margin-bottom: 56px;
+    margin-bottom: 20px;
 }
 
 .active{

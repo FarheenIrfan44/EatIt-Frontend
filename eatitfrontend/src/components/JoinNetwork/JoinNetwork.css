@@ -1,0 +1,16 @@
+.joinNetwork-text
+{
+    text-align: center;
+    font-size: 80px;
+    color: #D1D5DB;
+    width: 100%;
+    font-weight: normal;
+}
+.networkCard-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.7rem
+    /* margin: 0px 94px; */
+}

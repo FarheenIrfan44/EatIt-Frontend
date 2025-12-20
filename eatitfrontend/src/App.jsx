@@ -5,6 +5,7 @@ import './App.css'
 
 import NavigationBar from "./components/Navigation/NavigationBar";
 import HeroSection from './components/HeroSection/HeroSection';
+import JoinNetwork from './components/JoinNetwork/JoinNetwork';
 
 // App.js (Option 2: Standard Function Declaration)
 function App() {
@@ -12,6 +13,8 @@ function App() {
     <>
     <NavigationBar />
     <HeroSection />
+    <JoinNetwork/>
+
     </>
 
   );
