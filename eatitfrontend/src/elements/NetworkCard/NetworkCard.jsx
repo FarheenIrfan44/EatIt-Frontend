@@ -2,7 +2,7 @@ import React from 'react'
 import './NetworkCard.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const NetworkCard = ({icon, heading, para,btnTxt, image}) => {
+const NetworkCard = ({icon, heading, para,image}) => {
   return (
     <div className='networkCard'>
         <div className='networkCard-content'>

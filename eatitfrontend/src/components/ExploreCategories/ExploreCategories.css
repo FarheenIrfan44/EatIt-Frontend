@@ -1,0 +1,86 @@
+
+.exploreCategories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   background-color: #0C513F ;
+   margin-top: 432px;
+}
+
+.exploreCategoriesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC501;
+    margin-top: -120px;
+    padding: 0px 20px;
+    border-radius: 16px;
+   
+}
+.exploreCategoriesHeading{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+.categoriesContent{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    gap: 172px;
+}
+
+.imageDivBottle{
+    height: 480px;
+    position: relative;
+}
+
+.imageDivCan{
+    height: 225px;
+    position: absolute;
+    margin-top: 230px;
+}
+.imageContainer{
+    display: flex;
+    
+}
+
+.arrow{
+    display: flex;
+    
+}
+.pageNumberContainer{
+    display: flex;
+    
+}
+
+.exploreCategoriesText{
+    display: flex;
+    color: white;
+    gap: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.exploreCategoriesTxtHeading{
+    position: relative;
+    font-size: 3rem;
+    width: 400px;
+   
+
+}
+.exploreCategoriesTxtImg{
+    position: absolute;
+    margin-top: -20px;
+}
+.exploreCategoriesTxtPara{
+    width: 430px;
+    font-size: 1.2em;
+    font-weight: lighter;
+
+}
+
+
+

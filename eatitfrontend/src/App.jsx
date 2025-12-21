@@ -6,6 +6,7 @@ import './App.css'
 import NavigationBar from "./components/Navigation/NavigationBar";
 import HeroSection from './components/HeroSection/HeroSection';
 import JoinNetwork from './components/JoinNetwork/JoinNetwork';
+import ExploreCategories from './components/ExploreCategories/ExploreCategories';
 
 // App.js (Option 2: Standard Function Declaration)
 function App() {
@@ -14,6 +15,8 @@ function App() {
     <NavigationBar />
     <HeroSection />
     <JoinNetwork/>
+    <ExploreCategories />
+    
 
     </>
 
