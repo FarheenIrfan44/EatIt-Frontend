@@ -2,6 +2,7 @@ import React from 'react'
 import PageNumber from '../../elements/PageNumber/PageNumber'
 import './ExploreCategories.css'
 import {faArrowLeft, faArrowRight, faLocationDot,  faStar} from '@fortawesome/free-solid-svg-icons'
+import Chip from '../../elements/Chip/Chip'
 
 const ExploreCategories = () => {
   return (
@@ -35,6 +36,14 @@ const ExploreCategories = () => {
         <h1 className='exploreCategoriesTxtHeading'>Chowdeck has you covered  <img className='exploreCategoriesTxtImg' src="src/assets/images/meal.png" alt="Image here" /></h1>
         </div>
         <p className='exploreCategoriesTxtPara'> Hungry? Too tired to cook? Have friends over, or do you simply need to chop life? Download Chowdeck, and let’s deliver happiness to your doorstep in minutes.</p>
+    </div>
+
+    <div className='chipContainer'>
+      <Chip icon={faStar} content={'Quick and easy onboarding'} color={'#FFC501'} />
+      <Chip icon={faStar} content={'Quality meal choices'} color={'#FFC501'} />
+      <Chip icon={faStar} content={'Live updates on orders'} color={'#FFC501'} />
+      <Chip icon={faStar} content={'Highly rated riders'} color={'#FFC501'} />
+      <Chip icon={faStar} content={'20/7 support for customers and vendors'} color={'#FFC501'} />
     </div>
 </div>
     
