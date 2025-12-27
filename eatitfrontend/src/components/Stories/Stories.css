@@ -1,0 +1,17 @@
+.storyCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.storiesSectionHeader{
+    display: flex;
+    align-items: end;
+    margin-bottom: 32px;
+    margin-left: 20px;
+}
+.storiesSectionHeader img{
+    width: 100px;
+    height: 100px;
+    
+}

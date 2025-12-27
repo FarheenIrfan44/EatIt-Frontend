@@ -7,8 +7,11 @@ import NavigationBar from "./components/Navigation/NavigationBar";
 import HeroSection from './components/HeroSection/HeroSection';
 import JoinNetwork from './components/JoinNetwork/JoinNetwork';
 import ExploreCategories from './components/ExploreCategories/ExploreCategories';
+import Location from './components/Location/Location';
+import Testimonials from './components/Testimonials/Testimonials';
+import Stories from './components/Stories/Stories';
 
-// App.js (Option 2: Standard Function Declaration)
+
 function App() {
   return (
     <>
@@ -16,8 +19,9 @@ function App() {
     <HeroSection />
     <JoinNetwork/>
     <ExploreCategories />
-    
-
+    <Location />
+    <Testimonials />
+    <Stories/>
     </>
 
   );

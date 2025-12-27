@@ -1,0 +1,25 @@
+.RestaurantListElement{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    width: 400px;
+    border: 1px solid #E5E7EB;
+    padding: 0px 16px;
+    margin-top: 20px;
+    border-right: none;
+}
+
+.cartIconLocation svg{
+background-color: #F2FCF9;
+padding: 8px;
+color: #02C27F;
+border-radius: 100%;
+
+}
+
+.cartIconLocation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

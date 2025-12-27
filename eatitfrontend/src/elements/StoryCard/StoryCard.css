@@ -1,0 +1,59 @@
+
+.storyCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+  width: 380px;
+  border: 3px solid black;
+}
+
+.StoryCardheader img {
+  width: 381px;
+  height: 215px;
+  border-radius: 12px 12px 0px 0px;
+  border-bottom: 3px solid black;
+}
+
+.info {
+  border: none;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.infoPara{
+  font-size: 16px;
+
+}
+
+.title {
+  color: black;
+  line-height: 2;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 13px;
+}
+
+
+.action {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  outline: none;
+  color: #0C513F;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0.75rem 1.5rem;
+  background-color: rgba(12, 81, 63, 0.05);
+  border-radius: 8px;
+  width: 100%;
+}
+

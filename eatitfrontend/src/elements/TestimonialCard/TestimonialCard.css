@@ -1,0 +1,74 @@
+
+.card {
+  background-color: #F9FAFB;
+  padding: 1rem 1.5rem;
+  max-width: 320px;
+  max-height: fit-content;
+  border-radius: 10px;
+  margin-top: 1rem;
+  /* box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.24); */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.header .image img{
+    height: 4rem;
+  width: 4rem;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+.headerText{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.nameContainer{
+   
+     margin-top: 0.25rem;
+     display: flex;
+     flex-direction: column;
+
+}
+
+.stars {
+  
+  margin-top: -24px;
+  color: #9CA3AF;
+ 
+}
+.twitterIcon{
+background-color: #1DA1F2;
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 12px;
+color: white;
+
+
+}
+
+.name {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, 1);
+}
+
+.message {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-top: 1rem;
+  color: black;
+}
+.card:nth-child(even){
+    margin-block: 8px;
+}
