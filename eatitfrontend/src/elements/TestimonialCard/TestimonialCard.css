@@ -3,7 +3,7 @@
   background-color: #F9FAFB;
   padding: 1rem 1.5rem;
   max-width: 320px;
-  max-height: fit-content;
+  max-height: 300px;
   border-radius: 10px;
   margin-top: 1rem;
   /* box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.24); */
@@ -70,5 +70,5 @@ color: white;
   color: black;
 }
 .card:nth-child(even){
-    margin-block: 8px;
+    transform: translateY(40px);
 }

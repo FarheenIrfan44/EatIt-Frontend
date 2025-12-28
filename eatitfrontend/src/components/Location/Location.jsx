@@ -19,6 +19,9 @@ const Location = () => {
         <RestaurantList content={'Goodypot foodies enterprises'} />
         <RestaurantList content={'Belle First.Com'} />
         <RestaurantList content={'So Fresh - Ogudu'} />
+        <RestaurantList content={'Goodypot foodies enterprises'} />
+        <RestaurantList content={'Belle First.Com'} />
+        <RestaurantList content={'So Fresh - Ogudu'} />
         </div>
         
        

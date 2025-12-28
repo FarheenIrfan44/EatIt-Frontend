@@ -45,4 +45,6 @@
 
 .listItems{
     margin-left: 16px;
+    height: 570px;
+    overflow-y: auto; 
 }
